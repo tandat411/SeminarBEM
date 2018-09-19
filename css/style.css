@@ -54,50 +54,50 @@ table {
 }
 
 /* CSS tag p */
-.exam {
+.content__exam {
 	color: red;
 	font-size: 35px;
 }
 
 /* CSS tag ul of class list1*/
-.list1 {
+.content__list1 {
 	width: 50%;
 	margin: 10px auto;
 	display: flex;
 	font-size: 20px;
 }
 
-.list1 .list1-item {
+.content__list1__item {
 	flex-wrap: nowrap;
 	padding: 10px;
 }
 
-.list1 .list1-item:hover {
+.content__list1--active{
 	background: pink;
 	font-weight: bold;
 }
 
-.list1 .list1-active{
+.content__list1__item:hover {
 	background: pink;
 	font-weight: bold;
 }
 
 /* CSS tag ul of class list2*/
-.list2 {
+.content__list2 {
 	width: 50%;
 	margin: 10px auto;
 	background: #F8F7F4;
 	font-size: 16px;
 }
 
-.list2 .list2-item {
+.content__list2__item {
 	padding: 10px;
 }
 
-.list2 .list2-item:hover {
+.content__list2__item--active{
 	color: #5DBCD2;
 }
 
-.list2 .list2-active{
+.content__list2__item:hover {
 	color: #5DBCD2;
 }
